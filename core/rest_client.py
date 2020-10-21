@@ -5,7 +5,7 @@
 # @File   :rest_client.py
 
 import requests
-import json
+import json as complexjson
 
 class RestClient:
     def __init__(self, api_root_url):
